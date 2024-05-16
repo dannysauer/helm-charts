@@ -9,5 +9,5 @@ metadata:
 data:
   policies.yaml: |-
     policies:
-      {{- toYaml $scheduledPolicy.policies | nindent 4 }}
+      {{- toYaml $scheduledPolicy.policies | nindent 6 }}
 {{- end }}
